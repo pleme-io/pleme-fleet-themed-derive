@@ -1,6 +1,6 @@
 [package]
 name = "pleme-fleet-themed-derive"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MIT"
 description = "#[derive(FleetThemed)] — mechanize ishou_tokens::FleetThemedConfig::from_fleet from #[fleet(...)] field attributes. Convergence by construction across the pleme-io fleet."
