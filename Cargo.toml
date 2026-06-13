@@ -1,0 +1,21 @@
+[package]
+name = "pleme-fleet-themed-derive"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "#[derive(FleetThemed)] — mechanize ishou_tokens::FleetThemedConfig::from_fleet from #[fleet(...)] field attributes. Convergence by construction across the pleme-io fleet."
+repository = "https://github.com/pleme-io/pleme-fleet-themed-derive"
+homepage = "https://github.com/pleme-io/pleme-fleet-themed-derive"
+categories = ["development-tools::procedural-macro-helpers"]
+keywords = ["tatara", "macro", "derive", "ishou", "fleet"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full", "extra-traits"] }
+
+[dev-dependencies]
+tatara-rust-snapshot = "0.1"
